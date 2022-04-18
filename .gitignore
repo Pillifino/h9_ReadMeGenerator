@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+#prevent node_modules from being tracked or uploaded to Github
+.DS_Store/
