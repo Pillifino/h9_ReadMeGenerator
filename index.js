@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const generateReadMe = (data) => //Literally Put Readme outline in here and add ${data.datatypehere}
   `# ${data.title}
-  
+ 
     ## Description
         ${data.description}
     ## Installation Instructions
@@ -16,6 +16,9 @@ const generateReadMe = (data) => //Literally Put Readme outline in here and add 
         ${data.tests}
     ## License
         ${data.license}
+    ## Questions
+        https://github.com/${data.username}/
+        For Any Additional Questions Email Me At: ${data.email}    
   `;
 
 inquirer
@@ -63,11 +66,21 @@ inquirer
        "Eclipse Public License 2.0",
        "The Unlicense"]
     },
+    {
+        type: "input",
+        name: "username",
+        message: "What is your username?",
+      },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email?",
+      },
   ])
   .then((answers) => {
     const ReadMEContent = generateReadMe(answers);
 
     fs.writeFile("README.md", ReadMEContent, (err) =>
       err ? console.log(err) : console.log("Successfully created README!")
-    );
+    );  
   });
