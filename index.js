@@ -2,7 +2,7 @@ const inquirer = require("inquirer"); //
 const fs = require("fs");
 
 const generateReadMe = (data) => //Literally Put Readme outline in here and add ${data.datatypehere}
-  `# <${data.title}>
+  `# ${data.title}
   
     ## Description
         ${data.description}

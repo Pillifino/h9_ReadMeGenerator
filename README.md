@@ -1,13 +1,13 @@
-# <ReadMeGenerator>
+# ReadMeGenerator
   
     ## Description
-        It generates ReadMe's for the user
+        blank
     ## Installation Instructions
-        None Right Now
+        blank
     ## Usage Information
-        It's up to you!
+        blank
     ## Credits
-        Fill this in  
+        blank 
     ## Tests
-        none!
+        blank
   
