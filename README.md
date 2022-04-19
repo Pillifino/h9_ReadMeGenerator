@@ -1,13 +1,15 @@
 # ReadMeGenerator
   
     ## Description
-        blank
+        Blank
     ## Installation Instructions
-        blank
+        Blank
     ## Usage Information
-        blank
+        
     ## Credits
-        blank 
+        Blank 
     ## Tests
-        blank
+        Blank
+    ## License
+        The Unlicense
   

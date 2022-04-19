@@ -14,6 +14,8 @@ const generateReadMe = (data) => //Literally Put Readme outline in here and add 
         ${data.credits} 
     ## Tests
         ${data.tests}
+    ## License
+        ${data.license}
   `;
 
 inquirer
@@ -47,6 +49,19 @@ inquirer
       type: "input",
       name: "tests",
       message: "What Tests Are You Adding?",
+    },
+    {
+       type:'list',
+       message: "Choose your license for your application:",
+       name: "license",
+       choices: [
+       "Apache License 2.0",
+       "GNU General Public License v3.0",
+       "MIT License",
+       "BSD 2-Clause'Simplified' License",
+       "Creative Commons Zero v1.0 Universal",
+       "Eclipse Public License 2.0",
+       "The Unlicense"]
     },
   ])
   .then((answers) => {
