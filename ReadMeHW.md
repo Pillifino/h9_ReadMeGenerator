@@ -1,18 +1,18 @@
 
-  [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   # Project: 
-  blank
+  ReadMeGenerator
   
   ## Description
-  blank
+  Type What you want!
   ## Installation
-  blank
+  It Will generate a ReadMe for you!
   ## Instructions
-  blank
+  random text
   ## Github Username
-  blank
+  pillifino
   ## Email
-  blank
+  DinoDizon073100@gmail.com
   
   ## License
-  Creative Commons Zero v1.0 Universal
+  MIT License
