@@ -23,3 +23,6 @@ THEN I am taken to the corresponding section of the README
 ```
 
 # Resources
+
+https://user-images.githubusercontent.com/98142990/164579942-32528bae-af91-4b03-a131-1214c1140ffa.mp4
+
